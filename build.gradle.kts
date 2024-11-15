@@ -1,5 +1,5 @@
 group = "com.github.angeschossen"
-version = "5.19.11"
+version = "5.19.12"
 description = "ChestProtectAPI"
 
 plugins {
