@@ -1,5 +1,6 @@
 package me.angeschossen.chestprotect.api.protection.hook;
 
+import me.angeschossen.chestprotect.api.protection.world.ProtectionWorld;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -8,6 +9,12 @@ import org.jetbrains.annotations.Nullable;
  * See {@link ProtectionHook} for more information.
  */
 public interface ProtectionHookHolder {
+
+    ProtectionWorld getWorld();
+    int getX();
+    int getY();
+    int getZ();
+    long getId();
 
     /**
      * Remove the current protection hook.
