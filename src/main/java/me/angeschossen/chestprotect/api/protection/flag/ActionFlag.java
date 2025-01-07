@@ -6,8 +6,11 @@ import org.bukkit.plugin.Plugin;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
-public class ManagementFlag extends com.github.angeschossen.pluginframework.api.flags.roles.ManagementFlag {
-    public ManagementFlag(@NotNull Plugin plugin, @NotNull String name) {
+import java.util.Arrays;
+
+public class ActionFlag extends com.github.angeschossen.pluginframework.api.flags.roles.ActionFlag {
+
+    public ActionFlag(@NotNull Plugin plugin, @NotNull String name) {
         super(plugin, name);
     }
 
@@ -30,6 +33,6 @@ public class ManagementFlag extends com.github.angeschossen.pluginframework.api.
 
     @Override
     protected @Nullable String getMessageKey() {
-        return "noaccess.management";
+        return "noaccess.action";
     }
 }

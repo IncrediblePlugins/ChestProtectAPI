@@ -7,6 +7,7 @@ import me.angeschossen.chestprotect.api.player.ProtectPlayer;
 import me.angeschossen.chestprotect.api.protection.ProtectionManager;
 import me.angeschossen.chestprotect.api.protection.block.BlockProtection;
 import me.angeschossen.chestprotect.api.protection.entity.EntityProtection;
+import me.angeschossen.chestprotect.api.protection.flag.FlagRegistry;
 import me.angeschossen.chestprotect.api.protection.world.ProtectionWorld;
 import org.bukkit.World;
 import org.bukkit.block.Block;
@@ -32,6 +33,13 @@ public interface ChestProtectAPI {
         return Objects.requireNonNull(APIHandler.getInstance(), "ChestProtect isn't loaded yet. Please access the API, after ChestProtect is loaded. It doesn't need to be fully enabled.").getAPI();
     }
 
+    @NotNull FlagRegistry getFlagRegistry();
+
+    /**
+     * Get world related data.
+     *
+     * @return all worlds that have protections enabled and are loaded
+     */
     @NotNull
     Collection<? extends ProtectionWorld> getProtectionWorlds();
 

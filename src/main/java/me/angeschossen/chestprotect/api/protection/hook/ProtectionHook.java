@@ -1,11 +1,8 @@
 package me.angeschossen.chestprotect.api.protection.hook;
 
-import com.github.angeschossen.pluginframework.api.roles.settings.ManagementSetting;
-import com.github.angeschossen.pluginframework.api.trusted.RoleHolder;
 import com.github.angeschossen.pluginframework.api.utils.Checks;
 import me.angeschossen.chestprotect.api.handler.APIHandler;
-import me.angeschossen.chestprotect.api.player.ProtectPlayer;
-import org.bukkit.block.Block;
+
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.plugin.Plugin;
 import org.jetbrains.annotations.NotNull;

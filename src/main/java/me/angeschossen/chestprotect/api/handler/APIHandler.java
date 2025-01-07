@@ -1,6 +1,7 @@
 package me.angeschossen.chestprotect.api.handler;
 
 import me.angeschossen.chestprotect.api.ChestProtectAPI;
+import me.angeschossen.chestprotect.api.protection.flag.FlagRegistry;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.Objects;
