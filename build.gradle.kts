@@ -1,5 +1,5 @@
 group = "com.github.angeschossen"
-version = "5.19.15"
+version = "5.19.16"
 description = "ChestProtectAPI"
 
 plugins {
@@ -62,7 +62,7 @@ tasks {
 }
 
 dependencies {
-    shadow("com.github.Angeschossen:PluginFrameworkAPI:1.1.6")
+    shadow("com.github.Angeschossen:PluginFrameworkAPI:1.1.7")
     compileOnly("org.spigotmc:spigot-api:1.21.1-R0.1-SNAPSHOT")
     compileOnly("org.realityforge.org.jetbrains.annotations:org.jetbrains.annotations:1.7.0")
     compileOnly("org.apache.commons:commons-lang3:3.17.0")
