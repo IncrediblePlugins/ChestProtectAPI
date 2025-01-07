@@ -33,8 +33,6 @@ public interface ChestProtectAPI {
         return Objects.requireNonNull(APIHandler.getInstance(), "ChestProtect isn't loaded yet. Please access the API, after ChestProtect is loaded. It doesn't need to be fully enabled.").getAPI();
     }
 
-    @NotNull FlagRegistry getFlagRegistry();
-
     /**
      * Get world related data.
      *

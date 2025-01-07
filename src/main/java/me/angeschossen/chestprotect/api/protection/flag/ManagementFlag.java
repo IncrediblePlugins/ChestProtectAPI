@@ -1,7 +1,5 @@
 package me.angeschossen.chestprotect.api.protection.flag;
 
-import com.github.angeschossen.pluginframework.api.player.PlayerData;
-import org.apache.commons.lang3.ArrayUtils;
 import org.bukkit.plugin.Plugin;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;

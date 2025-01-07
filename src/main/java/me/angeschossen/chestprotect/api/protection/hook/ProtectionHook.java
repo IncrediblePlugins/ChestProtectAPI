@@ -2,7 +2,6 @@ package me.angeschossen.chestprotect.api.protection.hook;
 
 import com.github.angeschossen.pluginframework.api.utils.Checks;
 import me.angeschossen.chestprotect.api.handler.APIHandler;
-
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.plugin.Plugin;
 import org.jetbrains.annotations.NotNull;
