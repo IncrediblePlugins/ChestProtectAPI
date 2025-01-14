@@ -1,5 +1,7 @@
 package me.angeschossen.chestprotect.api.player.flag;
 
+import org.jetbrains.annotations.NotNull;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -40,9 +42,20 @@ public enum PlayerFlag {
     }
 
     /**
+     * Get permission required to toggle the flag.
+     *
+     * @return permission required to toggle the flag
+     */
+    @NotNull
+    public String getTogglePermission() {
+        return "chestprotect.setting.player." + toString();
+    }
+
+    /**
      * Get a flag by its numerical id.
+     *
      * @param id the numerical id
-     * @return
+     * @return null, if no flags with that id
      */
     public static PlayerFlag getById(int id) {
         return map.get(id);
