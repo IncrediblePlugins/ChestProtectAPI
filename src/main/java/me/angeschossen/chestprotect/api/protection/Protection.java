@@ -16,6 +16,13 @@ public interface Protection extends Nameable, RoleHolder, ProtectionHookHolder {
 
 
     /**
+     * Get the type of protection.
+     *
+     * @return block or entity
+     */
+    @NotNull ProtectionType getProtectionType();
+
+    /**
      * Get the block x coordinate.
      *
      * @return block x
