@@ -12,7 +12,7 @@ public enum ProtectionFlag {
     REDSTONE(0, true),
     PUBLIC_TAKE(1, false),
     PUBLIC_INSERT(2, false),
-    HOLOGRAM(3, false);
+    HOLOGRAM(3, true);
 
     private static final Map<Integer, ProtectionFlag> map = new HashMap<>();
 
